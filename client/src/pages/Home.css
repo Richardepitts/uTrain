@@ -1,0 +1,17 @@
+.HomeParentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.BadBitch {
+    background: url('../assets/GWoman.jpeg');
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 999;
+    height: calc(1750px / 4);
+    width: calc(1200px / 4);
+}

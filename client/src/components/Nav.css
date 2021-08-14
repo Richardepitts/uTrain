@@ -1,0 +1,23 @@
+.navbar {
+    height: 50px;
+    background: url(../assets/Marble.jpg);
+    background-size: 500% 500%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.nav-link {
+    position: relative;
+    top: 4px;
+}
+.uTrainEmblemContainer {
+    height: 50px;
+    width: 100px;
+}
+
+.uTrainEmblem {
+    transform: scale(.082);
+    right: 688px; 
+    bottom: 175px;
+    position: relative;
+}
