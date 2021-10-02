@@ -1,0 +1,325 @@
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes anatomyAnimation {
+    0% {
+        opacity: 0.43;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.HomeParentContainer {
+    height: 93vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, #3e5e83, #7f92a8, #5f738a, #63778f);
+background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+}
+
+.HomeMacrosTitle {
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    font-size: 23px;
+    bottom: 19px;
+}
+
+.HomeDynamicMacrosContainer {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    /* position: absolute; */
+    top: 33.3%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.HomeMacrosContainerPhone {
+    font-size: 24px;
+    position: absolute;
+    top: 44%;
+    display: flex;
+    width: 66vw;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    right: 42px;
+}
+.HomeMacrosContainer {
+    font-size: 23px;
+    position: absolute;
+    top: 42%;
+    display: flex;
+    width: 39vw;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.HomeCarbsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeFatsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeProteinContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeCarbsTitle, .HomeFatsTitle, .HomeProteinTitle {
+}
+
+.HomeTotalCaloriesContainer {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    transform: scale(1.2);
+}
+.invisibleClass {
+    display: none;
+}
+.HomeDynamicTotalCaloriesContainerPhone {
+    position: absolute;
+    top: 68%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 2px;
+}
+.HomeDynamicTotalCaloriesContainer {
+    position: absolute;
+    top: 71%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeTotalCaloriesTitlePhone {
+    font-size: 24px;
+}
+.HomeTotalCaloriesDataPhone {
+    font-size: 24px;
+}
+.HomeTotalCaloriesTitle {
+    font-size: 23px;
+}
+.HomeTotalCaloriesData {
+    font-size: 23px;
+}
+.HomeUsernameContainer {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HomeDynamicUsernameContainerPhone {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+}
+.HomeDynamicUsernameContainerPhone {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HomeDynamicUsernameContainer {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HomeUsernameWelcomePhone {
+    font-size: 24px;
+    text-align: center;
+}
+.HomeUsernameWelcome {
+    font-size: 23px;
+    text-align: center;
+}
+.HomeUserNameInteriorContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.HomeUsername {
+    font-size: 36px;
+}
+
+.HomeWeightContainer {
+    position: absolute;
+    left: 62%;
+    bottom: 40%;
+    transform: scale(1.4);
+}
+.HomeWeightDynamicContainer {
+    position: absolute;
+    right: 9%;
+    bottom: 39%;
+}
+
+.HomeGainsContainer {
+    position: absolute;
+    left: 22%;
+    bottom: 40%;
+    transform: scale(1.4);
+}
+.HomeGainsDynamicContainer {
+    position: absolute;
+    left: 9%;
+    bottom: 39%;
+}
+.HomeDisplayContainer { 
+    display: flex;
+    justify-content: center;
+    height: 4.8vh;
+    font-size: 23px;
+}
+
+.HomeContentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.HomeAnatomy2 {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 99999;
+    top: 56%;
+    opacity: 1;
+    animation: anatomyAnimation 1.7s ease-out;
+}
+
+.HomeAnatomy {
+    height: 533px;
+    width: 777px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    top: 20%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeiPhoneAnatomy {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    transform: scale(.42);
+    top: 20%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeDynamicAnatomy {
+    height: 533px;
+    width: 777px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    transform: scale(.77);
+    top: 12%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeAnatomyImg2 {
+    transform: scale(.7);
+    width: 82.5%;
+    height: 100%;
+    position: relative;
+}
+.HomeAnatomyImg {
+    transform: scale(1);
+    position: relative;
+}
+.HomeWhiteboard {
+    position: relative;
+    height: 66vh;
+    bottom: 12%;
+    display: flex;
+    justify-content: center;
+}
+.HomeWhiteboardPhone {
+    height: 67vh;
+    bottom: 28.3%;
+    position: absolute;
+}
+.HomeWhiteboardText {
+    background: url('./WhiteBoard.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    width: 100vw;
+    top: -12px;
+    height: 98%;
+    padding-top: 10px;
+    position: relative;
+    color: black;
+    display: grid;
+    border: 12px solid pink;
+    overflow-y: auto;
+    padding-left: 16px;
+    font-size: 18px;
+    transform: scale(.78);
+}
+.HomeWhiteboardTextPhone {
+    background: url('./WhiteBoard.png');
+    background-repeat: no-repeat;
+    background-size: 100% 77%;
+    background-position: 50% 50%;
+    width: 88vw;
+    top: -12px;
+    height: 98%;
+    padding-top: 10px;
+    position: relative;
+    color: black;
+    overflow-y: auto;
+    padding-left: 16px;
+    font-size: 18px;
+}

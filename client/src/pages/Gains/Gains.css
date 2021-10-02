@@ -1,0 +1,619 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.GainsParentContainerPhone {
+    width: 100vw;
+    height: calc(96vh - 47px);
+    background: linear-gradient( 
+-45deg, #3e5e83, #7f92a8, #5f738a, #63778f);
+    background-size: 100% 100%;
+    animation: gradient 8s ease infinite;
+    overflow-y: hidden;
+    position: relative;
+    top: 47px;
+    background: linear-gradient( 
+0deg, rgba(124,196,187,1) 0%, rgba(132,168,202,1) 35%, rgba(63,92,148,1) 100%);
+}
+.GainsParentContainerD {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 47px;
+    background: linear-gradient(-45deg, #3e5e83, #7f92a8, #5f738a, #63778f);
+background-size: 100% 100%;
+    animation: gradient 8s ease infinite;
+    overflow-y: hidden;
+    background: linear-gradient(
+0deg, rgba(124,196,187,1) 0%, rgba(132,168,202,1) 35%, rgba(63,92,148,1) 100%);
+}
+.GainsCalculateButtonContainer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2vh;
+}
+.GainsCalculateButton {
+    height: 47px;
+    width: 120px;
+    border-radius: 24px;
+    z-index: 99999;
+    background: url(../../assets/selectButtonImg.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid transparent;
+    /* box-shadow: 0 0px 33px rgba(90, 74, 74, 0.12),0 8px 8px rgba(0,0,0,.15)!important; */
+    box-shadow: rgba(235, 245, 96, 0.46) 0px 32px 100px 8px;
+}
+
+.GainsCalculateButton:hover {
+    box-shadow: 0 0px 33px rgba(90, 74, 74, 0.52),0 8px 8px rgba(0,0,0,.21)!important;
+    transform: scale(1.02);
+}
+
+.GainsLeftContainer {
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    border-top: 2px solid transparent;
+}
+.GainsLeftImage {
+    background: url('./GainsAnatomyBack.png');
+    background-size: 98% 98%;
+    background-position: 10% 57%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 55.28%;
+    position: relative;
+    left: 9%;
+    top: 6.6%;
+    z-index: 9999;
+    pointer-events: none;
+}
+.ChestParentContainer {
+    left: 0vw;
+    top: 35vh;
+    position: absolute;
+}
+.ChestGainsTester {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ChestLabel {
+    position: relative;
+    left: 18.7px;
+    font-weight: 600;
+    z-index: 9999;
+}
+
+.ShoulderParentContainer {
+    right: 1vw;
+    top: 28vh;
+    position: absolute;
+}
+.ShoulderGainsTester {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ShouldersLabel {
+    position: relative;
+    left: 4px;
+    font-weight: 600;
+}
+.BicepParentContainer {
+    left: 8.8vw;
+    top: 12vh;
+    position: absolute;
+}
+.BicepGainsTester {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BicepLabel {
+    position: relative;
+    left: 16.6px;
+    font-weight: 600;
+}
+
+.BicepGainValueText, .BicepGainValueText  {
+    position: relative;
+    top: 13px;
+}
+
+.AbsParentContainer {
+    right: 25vw;
+    top: 47vh;
+    position: absolute;
+}
+.AbsGainsTester {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AbsLabel {
+    position: relative;
+    left: 24px;
+    font-weight: 600;
+}
+.QuadsParentContainer {
+    left: 31.5vw;
+    top: 58vh;
+    position: absolute;
+}
+.QuadsGainsTester {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.QuadsLabel {
+    position: relative;
+    left: 17.3px;
+    font-weight: 600;
+}
+
+.GainsRightContainer {
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    /* border: 2px solid black; */
+    border-top: 2px solid transparent;
+}
+.GainsRightImage {
+    background: url('./GainsAnatomyFront.png');
+    background-size: 98% 98%;
+    z-index: 999;
+    background-position: 10% 66%;
+    background-repeat: no-repeat;
+    /* height: calc(669px * 1.67);
+    width: calc(400px * 1.67); */
+    height: 100%;
+    width: 59.8%;
+    position: relative;
+    z-index: 999999;
+    left: 8%;
+    top: 6.6%;
+    float: right;
+}
+.TricepsParentContainer {
+    left: 36vw;
+    top: 33vh;
+    position: absolute;
+}
+.TricepsGainsTester {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TricepsLabel {
+    position: relative;
+    left: 12px;
+    font-weight: 600;
+}
+.GainsCountTesterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.LatsParentContainer {
+    left: 11.8vw;
+    top: 30vh;
+    position: absolute;
+}
+.LatsGainsTester, .GlutesGainsTester, .TricepsGainsTester, .QuadsGainsTester, .ChestGainsTester, .AbsGainsTester, .BicepsGainsTester, .ShouldersGainsTester, .CalvesGainsTester, .HamstringsGainsTester {
+    border: 3px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 80px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 32px;
+    align-items: center;
+}
+.LatsLabel {
+    position: relative;
+    left: 25.3px;
+    font-weight: 600;
+}
+.LatsGainsValueText, .GlutesGainsValueText, .HamstringsGainsValueText, .TricepsGainsValueText, .QuadsGainsValueText,
+    .ShoulderGainsValueText, .CalvesGainsValueText, .AbsGainsValueText, .ChestGainsValueText, .BicepGainsValueText {
+    color: green;
+    font-weight:600;
+    font-size: 21px;
+}
+
+.HamstringsParentContainer {
+    left: 13vw;
+    top: 67vh;
+    position: absolute;
+}
+.HamstringsLabel {
+    position: relative;
+    right: 1.6px;
+    font-weight: 600;
+}
+
+.GlutesParentContainer {
+    left: 11vw;
+    top: 49vh;
+    position: absolute;
+}
+.GlutesLabel {
+    position: relative;
+    left: 16.5px;
+    font-weight: 600;
+}
+
+.CalvesParentContainer {
+    right: 3vw;
+    top: 68vh;
+    position: absolute;
+}
+.CalvesLabel {
+    position: relative;
+    left: 16.6px;
+    font-weight: 600;
+}
+
+/* ToolTip */
+
+.GainsTooltipContainer {
+    position: absolute;
+    width: 280px;
+    height: 185px;
+    background: transparent;
+    border-radius: 12px;
+    pointer-events: all;
+    z-index: 9999;
+    transform: scale(1.2);
+    top: 28px;
+}
+
+.GainsTooltipContainer2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: transparent; */
+    border-radius: 12px;
+    pointer-events: all;
+    z-index: 9999;
+    transform: scale(1.2);
+    top: 28px;
+    border: 9px solid white;
+}
+
+.GainsTooltip {
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    z-index: 9999!important;
+    line-height: 16px;
+    background-color: #383838;
+    padding-left: 2px;
+    padding-right: .4px;
+    bottom: 72px;
+    font-size: 12px;
+    text-align: left;
+    border-radius: 9px;
+}
+
+.GainsTooltipText::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 15px;
+}
+.GainsTooltipText::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color:  #d4d4d4;
+    }
+
+.GainsTooltip:after, .GainsTooltip:before {
+    top: 90%!important;
+    left: 50%!important;
+    border: solid #383838!important;
+    content: ""!important;
+    height: 20px!important;
+    width: 20px!important;
+    background: #383838!important;
+    position: absolute!important;
+    pointer-events: none!important;
+    transform: rotate(45deg)!important;
+}
+
+.GainsTooltipText {
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: monospace;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 11px;
+}
+
+/* // Dynamic \\ */
+
+.GainsDynamicContainer {
+    top: 4%;
+    height: 87.5%;
+    width: 98%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    border-top: 2px solid transparent;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.GainsDynamicImage {
+    background: url('./GainsAnatomyBack.png');
+    z-index: 999;
+    background-size: 100% 100%;
+    background-position: 10% 77%;
+    background-repeat: no-repeat;
+    height: calc(700px * 1.66);
+    width: calc(387px * 1.66);
+    position: relative;
+    left: 5%;
+    pointer-events: none;
+    height: 100%;
+    width: 55.2%;
+}
+.GainsDynamicImageFront {
+    background: url('./GainsAnatomyFront.png');
+    z-index: 999;
+    background-size: 80% 80%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+.GainsDynamicFrontContents {
+    /* background: url('./GainsAnatomyFront.png');
+    z-index: 999;
+    background-size: 77% 77%;
+    background-position: 10% 77%;
+    background-repeat: no-repeat;
+    height: calc(700px * 1.66);
+    width: calc(387px * 1.66);
+    position: relative;
+    left: 8%;
+    bottom: 5.6%;
+    pointer-events: none; */
+}
+.GainsDynamicBackContents {
+
+}
+.GainsDynamicButton {
+    position: absolute;
+    top: 12%;
+    left: 71.3%;
+    height: 30px;
+    width: 80px;
+    border: 2px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid white;
+    transform: scale(1.18);
+    border-radius: 23px;
+    border: 2px solid black;
+    border-radius: 23px;
+    height: 35px;
+    background-color: #667688;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+    color: white;
+    border: 2px solid white;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px!important;
+}
+.GainsDynamicButtonFront {
+    position: absolute;
+    top: 1%;
+    height: 35px;
+    width: 80px;
+    font-weight: 700;
+    border: 22px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    left: 71.45%;
+    border: 2px solid white;
+    transform: scale(1.18);
+    border-radius: 23px;
+    background-color: #667688;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px!important;
+}
+.GainsSelected {
+    font-weight: 800;
+    transform: scale(1.23);
+}
+
+.LatsDynamicParentContainerD {
+    left: 21vw;
+    top: 18vh;
+    position: absolute;
+}
+.LatsDynamicParentContainer {
+    left: 9vw;
+    top: 14vh;
+    position: absolute;
+    transform: scale(.73);
+}
+
+.GlutesDynamicParentContainerD {
+    left: 22.5vw;
+    top: 36vh;
+    position: absolute;
+}
+.GlutesDynamicParentContainer {
+    left: 10vw;
+    top: 30vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.QuadsDynamicParentContainerD {
+    right: 29vw;
+    top: 48vh;
+    position: absolute;
+}
+.QuadsDynamicParentContainer {
+    right: 18vw;
+    top: 46vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.TricepsDynamicParentContainerD {
+    right: 21vw;
+    top: 22.4vh;
+    position: absolute;
+}
+.TricepsDynamicParentContainer {
+    right: 10vw;
+    top: 17vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.HamstringsDynamicParentContainerD {
+    left: 25vw;
+    top: 54vh;
+    position: absolute;
+}
+.HamstringsDynamicParentContainer {
+    left: 12vw;
+    top: 44vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.ChestDynamicParentContainerD {
+    left: 12vw;
+    top: 27.8vh;
+    position: absolute;
+}
+.ChestDynamicParentContainer {
+    left: 10vw;
+    top: 26vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.BicepDynamicParentContainerD {
+    left: 35.5vw;
+    top: 14vh;
+    position: absolute;
+}
+.BicepDynamicParentContainer {
+    left: 36.5vw;
+    top: 7vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.CalvesDynamicParentContainerD {
+    right: 22.3vw;
+    top: 57vh;
+    position: absolute;
+}
+.CalvesDynamicParentContainer {
+    right: 13.3vw;
+    top: 46vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.AbsDynamicParentContainerD {
+    left: 20.3vw;
+    top: 39vh;
+    position: absolute;
+}
+.AbsDynamicParentContainer {
+    left: 11.3vw;
+    top: 35vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.ShoulderDynamicParentContainerD {
+    right: 20.7vw;
+    top: 21.7vh;
+    position: absolute;
+}
+.ShoulderDynamicParentContainer {
+    right: 8.7vw;
+    top: 17.7vh;
+    position: absolute;
+    transform: scale(.73);
+}
+.linkDiv {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.linkDivChild {
+    width: 80%;
+    height: 60%;
+    color: black;
+}
+
+.linkDivChild {
+    font-family: 'Orpheus-Pro';
+    background: url('../../assets/LoginSubmitButton.png');
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    border: 0px solid transparent;
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    color: black;
+    height: 55px;
+    z-index: 9999;
+    width: 180px;
+    left: 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.linkDivChild:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 24px 25px, rgba(0, 0, 0, 0.32) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

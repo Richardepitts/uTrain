@@ -1,0 +1,334 @@
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes opacityShifter {
+    0% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.4;
+    }
+}
+
+.BreakdownsParentContainerD {
+    display: flex;
+    height: calc(100vh - 47px);
+    background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+    width: 100%;
+    position: absolute;
+    top: 47px;
+    flex-direction: column;
+    overflow-y: hidden;
+    background: linear-gradient( 
+0deg, rgb(124, 196, 187), rgb(132, 168, 202) 35%, rgb(63, 92, 148));
+}
+.BreakdownsParentContainer {
+    display: flex;
+    height: calc(96vh - 47px);
+    background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+    width: 100%;
+    position: relative;
+    top: 47px;
+    flex-direction: column;
+    overflow-y: hidden;
+    background: linear-gradient(
+0deg, rgb(124, 196, 187), rgb(132, 168, 202) 35%, rgb(63, 92, 148));
+}
+
+.breakdownTitle {
+    position: relative;
+    top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.MuscleGroupBreakdownContainer {
+    position: relative;
+    bottom: 14px;
+}
+.RepsAndWeightBreakdownContainer {
+    display: flex;
+    justify-content: center;
+    top: 66px;
+    position: relative;
+}
+.WeightBreakdownContainer {
+    position: relative;
+    display: flex;
+    margin-left: 12px;
+    justify-content: center;
+}
+.WeightBreakdown {
+    z-index: 999;
+    text-align: center;
+    height: 49px!important;
+    width: 160px!important;
+    border-radius: 12px;
+}
+.RepsBreakdown::placeholder, .WeightBreakdown::placeholder {
+    overflow: visible;
+}
+
+.RepsBreakdownContainer {
+    display: flex;
+    margin-right: 12px;
+    border-radius: 12px;
+    justify-content: center;
+}
+.RepsBreakdown {
+    z-index: 999;
+    text-align: center;
+    height: 30px!important;
+    border-radius: 12px;
+    height: 49px!important;
+    width: 160px!important;
+}
+
+.BreakdownTopicSelectionParentContainerPhone{
+    display: flex;
+    justify-content: center;
+    height: 3vh;
+    position: relative;
+    top: 7%;
+}
+.BreakdownTopicSelectionParentContainer{
+    display: flex;
+    justify-content: center;
+    height: 3vh;
+    position: relative;
+    top: 7vh;
+}
+.BreakdownTopicSelectionContainer {
+    z-index: 9;
+    position: relative;
+    bottom: 23%;
+}
+
+.BreakdownTopicLabelContainer{
+    height: 20px;
+    width: 120px;
+    width: 100%;
+    bottom: 2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.BreakdownTopicLabelContainerPhone{
+    height: 20px;
+    width: 120px;
+    width: 100%;
+    bottom: 2px;
+    display: none;
+    justify-content: center;
+    position: relative;
+}
+.BreakdownTopicLabel {
+    font-size: 17px;
+}
+.BreakdownTopicSelectContainerMobile {
+    height: 2vh;
+    width: 134px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: calc(13.1vh - 15px);
+}
+.BreakdownTopicSelectContainer{
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#BreakdownTopicSelect {
+    bottom: 22px;
+    height: 44px;
+    width: 155px;
+    border-radius: 23px!important;
+    padding-left: 8px;
+    color: white;
+    background-color: #a2a2a2;
+    position: relative;
+    border: 2px solid white;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    background: linear-gradient(-45deg, rgb(71, 88, 107), rgb(132, 175, 220), rgb(119, 141, 165), rgb(100, 122, 148));
+}
+.SubmitButtonContainer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 77px;
+}
+
+.SubmitButtonContainer2 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.SubmitButton {
+    height: 30px;
+    width: 100px;
+}
+.LadySittingContainer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    bottom: 0vh;
+}
+
+.LadySitting {
+    height: calc(741px / 2.8);
+    width: calc(1000px / 2.8);
+    /* background: url('../../assets/LadySitting.png'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.BreakdownManContainer {
+    height: 33vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 2vh;
+}
+.BreakdownManContainerPhone {
+    height: 46vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 55.7%;
+}
+
+.BreakdownManImgPhone {
+    width: 66%;
+    height: 66%;
+    position: relative;
+}
+.BreakdownManImgD {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.BreakdownManImgP {
+    width: 90%;
+    height: 100%;
+    position: relative;
+}
+
+
+.BreakdownSubmit {
+    height: 47px;
+    width: 120px;
+    border-radius: 24px;
+    z-index: 99999;
+    background: url(../../assets/selectButtonImg.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid transparent;
+    box-shadow: 0 0px 33px rgba(90, 74, 74, 0.12),0 8px 8px rgba(0,0,0,.15)!important;
+}
+.BreakdownSubmit {
+    box-shadow: 0 0px 33px rgba(90, 74, 74, 0.12),0 8px 8px rgba(0,0,0,.11)!important;
+}
+.BreakdownSubmit:hover {
+    box-shadow: 0 0px 33px rgba(90, 74, 74, 0.22),0 8px 8px rgba(0,0,0,.21)!important;
+    transform: scale(1.007);
+}
+.BreakdownTextContainer {
+    position: absolute;
+    height: 46vh;
+    bottom: 38%;
+    display: flex;
+    justify-content: center;
+    transform: scale(.86);
+}
+.BreakdownWhiteboardContainerPhone {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 38vh;
+    bottom: 46%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.BreakdownWhiteboardContainer {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 43.5vh;
+    bottom: 40%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.BreakdownTextContainerPhone {
+    width: 96%;
+    height: 100%;
+    background: url('../../assets/WhiteBoard.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    overflow-y: auto;
+    padding: 12px;
+    padding-top: 8px;
+    border-radius: 13px;
+}
+.BreakdownTextPhone {
+    height: 100%;
+    width: 102%;
+    padding-right: 22px;
+    position: relative;
+    color: white;
+    overflow-y: auto;
+    top: 2px;
+}
+.BreakdownText {
+    background: url('../../assets/WhiteBoard.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    width: 100vw;
+    top: -12px;
+    height: 98%;
+    padding-top: 10px;
+    position: relative;
+    color: black;
+    overflow-y: auto;
+    padding-left: 16px;
+    font-size: 1.4rem;
+    transform: scale(.78);
+}

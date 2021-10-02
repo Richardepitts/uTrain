@@ -1,0 +1,145 @@
+
+* {
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.customFormControl {
+    background-image: linear-gradient(0deg, #ffffff 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(226, 226, 226, 0.26) 1px,transparent 0)
+}
+
+.btn-login {
+    background-color: #d8d9da!important;
+    border-color: #7165be!important;
+}
+.submitBtnContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 10vh;
+}
+.submitBtn {
+    font-family: 'Orpheus-Pro';
+    /* background: url('../../assets/LoginWithGoogleBtn.png'); */
+    background: url('../../assets/LoginSubmitButton.png');
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    border: 0px solid transparent;
+    border-radius: 24px;
+    color: black;
+    background-repeat: no-repeat;
+    color: black;
+    height: 55px;
+    z-index: 9;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.submitBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 24px 25px, rgba(0, 0, 0, 0.32) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.emailAddressContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 10.4vh;
+}
+
+.emailInputContainerParentPhone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 9;
+    position: relative;
+    top: 7vh;
+}
+
+.emailInputContainerParent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 9;
+    position: relative;
+    top: 4vh;
+}
+
+.emailInputContainerMobile {
+    border: 1px solid white;
+    position: relative;
+    width: 77%!important;
+    border-radius: 12px;
+    top: 23px;
+    z-index: 9;
+    color: white;
+}
+.emailInputContainer {
+    border: 1px solid white;
+    position: relative;
+    border-radius: 12px;
+    top: 23px;
+    z-index: 9;
+    width: 50%!important;
+    color: white;
+}
+
+.emailInput {
+    color: white!important;
+    padding: .4375rem 0;
+    z-index: 9;
+    width: 100%!important;
+    background: transparent;
+    border: 1px solid transparent;
+}
+.emailInput::placeholder {
+    color: white!important;
+    text-align: center;
+}
+.passwordContainer {
+    position: relative;
+    top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.passwordInputContainerParent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 9;
+    position: relative;
+    position: relative;
+    bottom: 8px;
+}
+.passwordInputContainerMobile {
+    position: relative;
+    width: 77%!important;
+    top: 9vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+}
+.passwordInputContainer {
+    position: relative;
+    width: 50%!important;
+    top: 11px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.passwordInput {
+    color: white!important;
+    padding: .4375rem 0;
+    z-index: 9;
+    width: 100%!important;
+    background: transparent;
+    border: 1px solid transparent;
+}
+.passwordInput::placeholder {
+    color: white!important;
+    text-align: center;
+}

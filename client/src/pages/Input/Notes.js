@@ -1,0 +1,1 @@
+//  wt. x reps x .0333 + wt.= 1RM. 

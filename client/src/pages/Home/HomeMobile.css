@@ -1,0 +1,386 @@
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes anatomyAnimation {
+    0% {
+        opacity: 0.43;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.HomeParentContainerPhone {
+    height: calc(93vh - 47px);
+    width: 100vw;
+    position: relative;
+    top: 47px;
+    height: calc(96vh - 47px);
+    background: linear-gradient(0deg, rgba(124,196,187,1) 0%, rgba(132,168,202,1) 35%, rgba(63,92,148,1) 100%);
+    background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+}
+
+.WelcomeXText {
+    display: flex;
+    position: absolute;
+}
+.flipButton {
+    height: 6vh;
+    width: calc(6vh * .244);
+    min-width: 6vh!important;
+    left: 32vw;
+    position: absolute;
+}
+.flipImg {
+    /* height: 100%;
+    width: 100%; */
+    height: 6vh;
+    width: calc(6vh * .947);
+}
+
+.HomeMacrosTitle {
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    font-size: 21px;
+    bottom: 19px;
+}
+
+.HomeDynamicMacrosContainer {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    /* position: absolute; */
+    top: 33.3%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.HomeMacrosContainerPhone {
+    font-size: 24px;
+    position: absolute;
+    top: 44%;
+    display: flex;
+    width: 66vw;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    right: 42px;
+}
+
+.HomeCarbsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeFatsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeProteinContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeCarbsTitle, .HomeFatsTitle, .HomeProteinTitle {
+}
+
+/* .HomeTotalCaloriesContainer {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    transform: scale(1.2);
+} */
+.invisibleClass {
+    display: none;
+}
+.HomeDynamicTotalCaloriesContainerPhone {
+    position: absolute;
+    top: 68%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HomeDynamicTotalCaloriesContainer {
+    position: absolute;
+    top: 11%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.HomeTotalCaloriesTitlePhone {
+    font-size: 24px;
+}
+.HomeTotalCaloriesDataPhone {
+    font-size: 24px;
+}
+.HomeTotalCaloriesTitle {
+    font-size: 21px;
+}
+.HomeTotalCaloriesData {
+    font-size: 21px;
+}
+.HomeUsernameContainer {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HomeDynamicUsernameContainerPhone {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+}
+.HomeDynamicUsernameContainerPhone {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HomeDynamicUsernameContainer {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HomeUsernameWelcomePhone {
+    font-size: 24px;
+    text-align: center;
+}
+.HomeUsernameWelcome {
+    font-size: 21px;
+    text-align: center;
+}
+.HomeUserNameInteriorContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.HomeUsername {
+    font-size: 36px;
+}
+
+.HomeWeightContainer {
+    position: absolute;
+    left: 62%;
+    bottom: 40%;
+    transform: scale(1.4);
+}
+
+.HomeGainsContainer {
+    position: absolute;
+    left: 22%;
+    bottom: 40%;
+    transform: scale(1.4);
+}
+.HomeGainsDynamicContainer {
+    position: absolute;
+    left: 9%;
+    bottom: 39%;
+}
+.HomeDisplayContainer { 
+    display: flex;
+    justify-content: center;
+    height: 4.8vh;
+    font-size: 21px;
+}
+
+.HomeContentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 47px);
+    top: 47px;
+    width: 100%;
+    position: absolute;
+}
+
+.HomeAnatomy2 {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 9;
+    right: 11%;
+    top: 48%;
+    opacity: 1;
+    animation: anatomyAnimation 1.7s ease-out;
+}
+
+.HomeAnatomy {
+    height: 533px;
+    width: 777px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    top: 20%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeiPhoneAnatomy {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    transform: scale(.42);
+    top: 20%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeDynamicAnatomy {
+    height: 533px;
+    width: 777px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    transform: scale(.77);
+    top: 12%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeAnatomyImg2 {
+    width: 82.5%;
+    height: 100%;
+    position: relative;
+}
+.HomeAnatomyImg {
+    transform: scale(1);
+    position: relative;
+}
+.HomeWhiteboardPhone {
+    height: 53vh;
+    bottom: 49%;
+    position: absolute;
+}
+.HomeWelcomeText {
+
+}
+  .WelcomeX {
+    grid-area: header;
+    background-color: green;
+  }
+  .HomeGainsX {
+    grid-area: main;
+    background-color: yellow;
+  }
+  .HomeWeightsX {
+    grid-area: sidebar;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+  }
+  .HomeMacrosX {
+    grid-area: footer;
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+  }
+  .HomeTotalCaloriesContainerX {
+    grid-area: footer2;
+    background-color: purple;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    height: 100%;
+    width: 100%;
+  }
+.HomeWhiteboardTextPhone {
+    background: url('../../assets/WhiteBoard.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    width: 89vw;
+    top: 1vh;
+    height: 89%;
+    position: relative;
+    color: black;
+    padding-bottom: 28px;
+    overflow-y: auto;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "welcome welcome welcome welcome"
+        "dynamicContainer1 dynamicContainer1 dynamicContainer1 dynamicContainer1"
+        "dynamicContainer2 dynamicContainer2 dynamicContainer2 dynamicContainer2";
+}
+
+.HomeWelcomeXPhone {
+    grid-area: welcome;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.HomeDynamicContainer1XPhone {
+    grid-area: dynamicContainer1;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.HomeDynamic1XPhone {
+    
+}
+.HomeDynamic2XPhone {
+
+}
+
+.HomeDynamicContainer2XPhone {
+    grid-area: dynamicContainer2;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ 

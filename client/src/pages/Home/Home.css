@@ -1,0 +1,337 @@
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes anatomyAnimation {
+    0% {
+        opacity: 0.43;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.HomeParentContainer {
+    overflow-y: hidden;
+    height: calc(100vh - 47px);
+    width: 100vw;
+    background: linear-gradient(
+0deg, rgba(124,196,187,1) 0%, rgba(132,168,202,1) 35%, rgba(63,92,148,1) 100%);
+    /* background: linear-gradient(
+-45deg, #3e5e83, #7f92a8, #5f738a, #63778f); */
+    background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+    position: absolute;
+    top: 47px;
+}
+.upperBodyGainsD {
+    /* margin-top: 6%; */
+}
+.HomeGainsDynamicContainerD {
+    position: absolute;
+    left: 7%;
+    bottom: 40%;
+}
+.currentWeightD {
+    margin-top: 6%;
+}
+.goalWeightD {
+    margin-top: 6%;
+}
+.lowerBodyGainsD {
+    margin-top: 3%;
+}
+.HomeMacrosTitle {
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    font-size: 23px;
+    bottom: 19px;
+}
+
+.HomeDynamicMacrosContainer {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    /* position: absolute; */
+    top: 33.3%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.HomeMacrosContainer {
+    font-size: 23px;
+    position: absolute;
+    display: flex;
+    width: 50%;
+    bottom: 5%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.HomeCarbsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeFatsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeProteinContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeCarbsTitle, .HomeFatsTitle, .HomeProteinTitle {
+}
+
+/* .HomeTotalCaloriesContainer {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    transform: scale(1.2);
+} */
+.invisibleClass {
+    display: none;
+}
+.HomeDynamicTotalCaloriesContainer {
+    position: absolute;
+    top: 11%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.HomeTotalCaloriesTitle {
+    font-size: 23px;
+}
+.HomeTotalCaloriesData {
+    font-size: 23px;
+}
+.HomeUsernameContainer {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HomeDynamicUsernameContainer {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HomeUsernameWelcome {
+    font-size: 23px;
+    text-align: center;
+}
+.HomeWhiteboard {
+    position: relative;
+    height: 53vh;
+    bottom: 28%;
+    display: flex;
+    justify-content: center;
+}
+.HomeUserNameInteriorContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.HomeUsername {
+    font-size: 36px;
+}
+
+.HomeWeightContainer {
+    position: absolute;
+    left: 62%;
+    bottom: 40%;
+    transform: scale(1.4);
+}
+.HomeWeightDynamicContainerD {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    right: 13%;
+    top: 28%;
+}
+
+.HomeGainsContainer {
+    position: absolute;
+    left: 22%;
+    bottom: 40%;
+    transform: scale(1.4);
+}
+.HomeGainsDynamicContainer {
+    position: absolute;
+    left: 9%;
+    bottom: 39%;
+}
+.HomeDisplayContainerD { 
+    display: flex;
+    justify-content: center;
+    height: 4.8vh;
+    font-size: 21px;
+}
+
+.HomeContentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.HomeAnatomy2 {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 99999;
+    top: 56%;
+    opacity: 1;
+    animation: anatomyAnimation 1.7s ease-out;
+}
+
+.HomeAnatomy {
+    height: 533px;
+    width: 777px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    top: 20%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeiPhoneAnatomy {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    transform: scale(.42);
+    top: 20%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeDynamicAnatomy {
+    height: 533px;
+    width: 777px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    z-index: 99999;
+    transform: scale(.77);
+    top: 12%;
+    animation: anatomyAnimation 2.2s linear;
+}
+.HomeAnatomyImg2 {
+    width: 82.5%;
+    height: 100%;
+    position: relative;
+}
+.HomeAnatomyImg {
+    transform: scale(1);
+    position: relative;
+}
+.HomeWhiteboardText {
+    background: url('../../assets/WhiteBoard.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    width: 89vw;
+    top: 1vh;
+    height: 89%;
+    position: relative;
+    color: black;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header"
+        "main main sidebar sidebar"
+        "footer footer footer2 footer2";
+}
+.HomeWelcomeTextD {
+    display: flex;
+    width: 100%;
+    height: 66%;
+    justify-content: center;
+    align-items: center;
+}
+  .WelcomeXD {
+    grid-area: header;
+  }
+  .HomeGainsXD {
+    grid-area: main;
+  }
+  .HomeWeightsXD {
+    grid-area: sidebar;
+    width: 100%;
+    height: 100%;
+  }
+  .HomeMacrosXD {
+    grid-area: footer;
+    height: 100%;
+    width: 100%;
+  }
+  .HomeDynamicTotalCaloriesContainerD {
+    position: absolute;
+    top: 11%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    bottom: 18%;
+}
+.HomeMacrosContainerD {
+    font-size: 21px;
+    position: absolute;
+    display: flex;
+    width: 45%;
+    left: 3%;
+    bottom: 6%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  .HomeTotalCaloriesContainerXD {
+    grid-area: footer2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+  }

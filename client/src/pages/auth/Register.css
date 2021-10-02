@@ -1,0 +1,7 @@
+.RegisterContainer {
+    display: flex;
+    width: 100%;
+    top: 4vh;
+    justify-content: center;
+    position: relative;
+}

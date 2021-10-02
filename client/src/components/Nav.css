@@ -1,0 +1,68 @@
+
+.navbar-nav {
+    top: -1px;
+    transform: scale(1.28);
+    position: relative;
+    left: 0px;
+}
+.navbar-side {
+    left: 13%;
+    position: relative;
+    bottom: 12px;
+}
+
+a.nav-link {
+    color: white!important;
+}
+
+.nav-link {
+    position: relative;
+    top: 4px;
+    color: white;
+}
+/* #navbarSupportedContent {
+    padding-left: 7vw;
+} */
+.uTrainEmblemContainer {
+    height: 50px;
+    width: 100px;
+    
+}
+.btn-primary {
+    color: white!important;
+}
+.form-control {
+    background-image: linear-gradient(0deg,#ffffff 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(255, 255, 255, 0.26) 1px,transparent 0)!important;
+}
+.form-control:focus {
+    color:white!important;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    left: 38px;
+    position: relative;
+    }
+}
+.navbar-toggler {
+    border-color: rgba(0,0,0,0)!important;
+}
+.navbar-toggler-icon {
+    background-image: url(../assets/HamburgerMenu.png)!important;
+    transform: scale(1.4);
+}
+.navbar-toggler {
+    bottom: 14px;
+    position: relative;
+}
+.uTrainEmblem {
+    transform: scale(.082);
+    right: 688px; 
+    bottom: 175px;
+    position: relative;
+}
+.uTrainEmblemTablet {
+    transform: scale(.082);
+    right: 688px; 
+    bottom: 189px;
+    position: relative;
+}

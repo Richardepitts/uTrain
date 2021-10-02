@@ -1,0 +1,73 @@
+/* @font-face {
+    font-family: 'orpheus-pro';
+    src: ('./Orpheus-Pro.otf') format("opentype");
+    src: url('./Orpheus-Pro.otf') format("opentype");
+} */
+
+
+@keyframes opacityShifter {
+    0% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes anatomyAnimation {
+    0% {
+        opacity: 0.43;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#root {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 93%!important;
+    width: 100%;
+    /* font-family: 'orpheus-pro'; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+
+.MuiButtonBase-root, .MuiListItem-root, .MuiListItem-gutters, .MuiListItem-divider, .MuiListItem-button, .Mui-selected, .makeStyles-drawerItemSelected-12 {
+    color: white!important;
+}
+
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+    background-color: rgba(1, 77, 192, 0.48)!important;
+}
+
+@font-face {
+    font-family: "whatever";
+    src: local("whatever"),
+     url("../src/assets/fonts/whatever.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+
+.activePagination {
+    background-color: green;
+}
+
+input, textarea {
+    text-align: center!important;;
+}
+.makeStyles-drawer-9 {
+    background: linear-gradient( 
+    -45deg, #47586b, #84afdc, #778da5, #647a94)!important;
+}
+
+.makeStyles-drawerIcon-5 {
+    background: url(../src/assets/HamburgerMenu.png)!important;
+}
+
+.containerRP {
+    width: 100%;
+}

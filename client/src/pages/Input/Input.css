@@ -1,0 +1,403 @@
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes inputAnatomyAnimation {
+    0% {
+        transform: scale(0.23);
+        left: 340px;
+        z-index: 9999;
+        top: 200px;
+    }
+    100% {
+        transform: scale(1);
+        left: 0px;
+        z-index: 9999;
+        top: 0px;
+    }
+}
+
+.InputsParentContainerPhone {
+    display: flex;
+    height: calc(96vh - 47px);
+    position: absolute;
+    top: 47px;
+    /* background: linear-gradient(
+-45deg, #3e5e83, #7f92a8, #5f738a, #63778f); */
+    background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    background: linear-gradient( 
+0deg, rgba(124,196,187,1) 0%, rgba(132,168,202,1) 35%, rgba(63,92,148,1) 100%);
+    }
+.InputsParentContainerP {
+    display: flex;
+    height: 93vh;
+    background: linear-gradient(-45deg, #3e5e83, #7f92a8, #5f738a, #63778f);
+background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    background: linear-gradient( 
+        0deg, rgba(124,196,187,1) 0%, rgba(132,168,202,1) 35%, rgba(63,92,148,1) 100%);
+}
+.InputsParentContainerD {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(-45deg, #3e5e83, #7f92a8, #5f738a, #63778f);
+background-size: 100% 100%;
+    animation: gradient 12s ease infinite;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    background: linear-gradient( 
+        0deg, rgba(124,196,187,1) 0%, rgba(132,168,202,1) 35%, rgba(63,92,148,1) 100%);
+}
+
+.comingSoon {
+    position: relative;
+    top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.MuscleGroupInputContainer {
+    position: relative;
+    bottom: 14px;
+}
+.RepsAndWeightInputContainerPhone {
+    display: flex;
+    justify-content: center;
+    top: 14%;
+    position: absolute;
+    width: 100%;
+}
+.RepsAndWeightInputContainerD {
+    display: flex;
+    justify-content: center;
+    top: 18vh;
+    position: absolute;
+    width: 100%;
+}
+.RepsAndWeightInputContainerP {
+    display: flex;
+    justify-content: center;
+    bottom: 64.5vh;
+    position: absolute;
+    width: 100%;
+}
+.WeightInputContainer {
+    position: relative;
+    display: flex;
+    margin-left: 12px;
+    justify-content: center;
+}
+.WeightInput::placeholder {
+    color: white;
+}
+.WeightInputD {
+    z-index: 999;
+    text-align: center;
+    height: 49px!important;
+    width: 28vw;
+    border-radius: 23px;
+    border: 2px solid white;
+    color: white;
+    background-color: #667688;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+}
+.WeightInputP {
+    z-index: 999;
+    text-align: center;
+    height: 49px!important;
+    width: 132px!important;
+    border-radius: 23px;
+    border: 2px solid white;
+    background-color: #667688;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+}
+.RepsInputD::placeholder, .RepsInputP::placeholder, .WeightInputD::placeholder, .WeightInputP::placeholder {
+    overflow: visible;
+    color: white;
+}
+
+.RepsInputContainer {
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+}
+.RepsInput::placeholder {
+    color: white;
+}
+.RepsInputD {
+    z-index: 999;
+    text-align: center;
+    height: 30px!important;
+    border-radius: 23px;
+    height: 49px!important;
+    width: 28vw;
+    border: 2px solid white;
+    background-color: #667688;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+}
+.RepsInputP {
+    z-index: 999;
+    text-align: center;
+    height: 30px!important;
+    border-radius: 23px;
+    height: 49px!important;
+    width: 132px!important;
+    border: 2px solid white;
+    background-color: #667688;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+}
+
+.MuscleGroupAndExerciseContainerPhone {
+    display: flex;
+    justify-content: center;
+    height: 23vh;
+    position: absolute;
+    top: 6.8%;
+    width: 100%;
+}
+.MuscleGroupAndExerciseContainerD {
+    display: flex;
+    justify-content: center;
+    height: 23vh;
+    position: absolute;
+    top: 10vh;
+    width: 100%;
+}
+.MuscleGroupAndExerciseContainerP {
+    display: flex;
+    justify-content: center;
+    height: 23vh;
+    position: absolute;
+    bottom: 56vh;
+    width: 100%;
+}
+.MuscleGroupParentContainer {
+    margin-right: 12px;
+    position: relative;
+}
+.ExerciseGroupParentContainer {
+    position: relative;
+}
+.MuscleGroupLabelContainer, .ExerciseLabelContainer {
+    height: 20px;
+    width: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.MuscleGroupSelectContainer, .ExerciseSelectContainer {
+    height: 40px;
+    width: 120px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#MuscleGroupSelect, #ExerciseSelect {
+    color: white;
+}
+.MuscleGroupSelectD {
+    bottom: 22px;
+    width: 28vw;
+    height: 49px;
+    text-align: center;
+    border-radius: 23px;
+    position: relative;
+    border: 2px solid white;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+}
+.MuscleGroupSelectP {
+    bottom: 22px;
+    width: 132px;
+    padding-left: 41px;
+    height: 49px;
+    border-radius: 23px;
+    position: relative;
+    border: 2px solid white;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+}
+
+.ExerciseSelectD {
+    bottom: 22px;
+    width: 28vw;
+    text-align: center;
+    height: 49px;
+    border-radius: 23px;
+    position: relative;
+    border: 2px solid white;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+}
+
+.ExerciseSelectP {
+    bottom: 22px;
+    width: 132px;
+    padding-left: 26px;
+    height: 49px;
+    border-radius: 23px;
+    position: relative;
+    border: 2px solid white;
+    background: linear-gradient( 
+-45deg, #47586b, #84afdc, #778da5, #647a94);
+}
+.InputSubmitButtonContainerPhone {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 23vh;
+    z-index: 7;
+}
+.InputSubmitButtonContainerD {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 34vh;
+}
+
+.InputSubmitButtonContainerP {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 55vh;
+}
+
+.SubmitButtonContainer2 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.SubmitButton {
+    height: 30px;
+    width: 100px;
+}
+.LadySittingContainer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    bottom: 0vh;
+}
+
+.LadySitting {
+    height: calc(741px / 2.8);
+    width: calc(1000px / 2.8);
+    /* background: url('../../assets/LadySitting.png'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.InputAnatomyContainerP {
+    position: relative;
+    height: 46vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5vh;
+
+}
+.InputAnatomyContainerD {
+    position: relative;
+    height: 46vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5vh;
+
+}
+.InputCommentCloudContainer {
+    position: absolute;
+    left: 22%;
+    top: 18.3%;
+    width: 370px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InputCommentText {
+    position: absolute;
+    color: black;
+    z-index: 9;
+    bottom: 55%;
+}
+.InputCommentCloudImg {
+    transform: scale3d(.9, .7, 1);
+}
+.InputLady {
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    animation: anatomyAnimation 2s ease-in-out;
+}
+.InputLadyImg {
+    position: relative;
+    height: 100%;
+    bottom: 1.6vh;
+    z-index: 999;
+    width: 34%;
+}
+
+.InputSubmit {
+    height: 47px;
+    width: 120px;
+    border-radius: 24px;
+    z-index: 99999;
+    background: url(../../assets/selectButtonImg.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid transparent;
+    box-shadow: 0 0px 33px rgba(90, 74, 74, 0.12),0 8px 8px rgba(0,0,0,.15)!important;
+}
+.InputSubmit {
+    box-shadow: 0 0px 33px rgba(90, 74, 74, 0.12),0 8px 8px rgba(0,0,0,.11)!important;
+}
+
+.InputSubmit:hover {
+    box-shadow: 0 0px 33px rgba(90, 74, 74, 0.22),0 8px 8px rgba(0,0,0,.21)!important;
+    transform: scale(1.007);
+}
